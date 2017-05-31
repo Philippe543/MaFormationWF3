@@ -58,6 +58,8 @@
         ------------------------------------------------- */
 
 
+/* Ce que j'ai fait. cela fonctionne
+
 $("#MonFormulaire").on('submit', function(event){
     event.preventDefault();
     $(this).replaceWith("<p>Voici le recapitulatif de vos informations. <br> votre nom est "+$("#fullname").val()+ "<br>votre email est"+$("#email").val()+"<br> votre numéro de téléphone est : "+$("#tel").val()+"<br>Le sujet de votre demande est lasuivante "+$("#sujet").val()+"<br>votre message est le suivant :  "+$("#message").val()+"</p>");
@@ -66,6 +68,27 @@ $("#MonFormulaire").on('submit', function(event){
 
 
 });
+*/
+//-- 1 attente que le DOM soit chargé !
+
+    $(function(){
+        //--2 Ecoouter l'évènement submit du formulaire
+    $("#Monformulaire").on(submit)
+
+
+
+
+
+
+    //--5 Récapitulatif
+    $(this.replacewith(""))
+
+
+
+    }
+
+
+
 
 
 
