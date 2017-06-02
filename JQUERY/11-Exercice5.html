@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercice 5</title>
+    <style>
+        main{
+            width:900px;
+            height: auto;
+            margin:0 auto;
+            }
+        section{ 
+            width: 100%;
+            height: auto;
+            min-height:200px;
+            margin-bottom:10px;
+            background-image: linear-gradient(0deg,#ccc,#fff);
+            border: 1px solid #ccc;
+             }
+        h3{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+            text-align:center;
+            color: #000;
+            }
+        article{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: :12px;
+            padding:20px;
+        }
+
+        input[type=text]{
+            width:100%;
+            height:30px;
+            background-image: -moz-linear-gradient(0deg,#eee 0%,#fff 100%);
+            border:1px solid #eee;
+            font-family:'Roboto Slab',Serif;
+            font-size:14px;
+            text-indent:10px;
+            margin-bottom:10px;
+           }
+
+
+    </style>
+</head>
+<body>
+   
+    <main>
+        <input type="text" placeholder="Saisissez un terme = surligner..." id="markjs">
+      <!--  <section>
+            <header>
+                <h3>Titre de mon article</h3>
+            </header>
+            <article>
+                Contenu de mon article
+            </article>
+        </section>
+        <section>
+            <header>
+                <h3>Titre de mon article</h3>
+            </header>
+            <article>
+                Contenu de mon article
+            </article>
+        </section>
+        <section>
+            <header>
+                <h3>Titre de mon article</h3>
+            </header>
+            <article>
+                Contenu de mon article
+            </article>
+        </section>
+        <section>
+            <header>
+                <h3>Titre de mon article</h3>
+            </header>
+            <article>
+                Contenu de mon article
+            </article>
+        </section>
+-->
+
+    </main>
+
+    <!--
+        Consigne : Avec l'aide de JQuery, vous devez :
+        
+        1. Définir une structure HTML et CSS3 pour afficher les articles
+
+        2. Afficher une liste d'articles à partir de l'API
+        https://jsonplaceholder.typicode.com/posts
+
+        3 Bonus : Afficher uniquement les 10 premiers articles
+
+        4 Bonus Mettre en place Markjs.io afin de surligner des mots dans les différents articles à l'aide d'un champs input.
+        -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.10.1/jquery.mark.min.js"></script>
+
+<script>
+$(function(){
+    //--Dom est pret
+
+    //--1 Récupération des articles
+    $.getJSON('https://jsonplaceholder.typicode.com/posts', function(articles){    // --Aperçu dans la console
+    console.log(articles);
+
+    //A 1ière solution : la boucle for
+    /*for(i = 0 ; i < 5; i++){
+        // je récupère à chaque itération de ma boucl, un objet (article)
+        let article = articles[i];
+        //--affichage dans ma page HTML
+        $(`<section>
+            <header>
+                <h3>${article.title}</h3>
+            </header>
+            <article>
+                ${article.body}
+            </article>
+        </section>`).appendTo($('main'));
+        */
+
+    // 2 ième façon :la boucle each
+    $.each(articles,function(i,article){
+        ///-- Ecriture dans la page HTML
+        $(`<section>
+            <header>
+                <h3>${article.title}</h3>
+            </header>
+            <article>
+                ${article.body}
+            </article>
+        </section>`).appendTo($(`main`));
+
+ 
+ //--- si mon indice i=5 alors j'arrête l'execution de ma fonction.
+ 
+    if(i==5){
+        return false;
+    }
+    
+    });
+
+});//---fin du getJSON
+    //-- Mark-JS
+    $('#markjs').on('input', function(e){
+        //-- Cette fonction va s'exécuter à chaque fois que l'utilisateur va lever son doigtd'une touche du clavier
+
+        //--Récupérer la valeur saisie par l'utilisateur
+        let keyword=$(this).val();
+        $('section').unmark().mark(keyword);
+
+    });
+
+
+});//Fin de JQuery
+
+
+
+
+
+
+
+
+
+
+
+/*
+      $(function(){
+         $.getJSON('https://jsonplaceholder.typicode.com/posts/?callback=', function(articles) {
+                      console.log(articles);
+        
+       for(i=0;i<article.length && i<10;i++){function afftitre(){
+           $("h3").eq(i)replacewith()
+
+       }
+            
+
+        }
+
+         });
+
+         });*/
+    
+
+</script>
+
+
+
+
+
+</body>
+</html>
