@@ -1,0 +1,33 @@
+body{
+	background:#72A0da;
+	line-height:100px; /* line-height sert  à définir les hauteur de ligne uniquement pour les éléments inline*/
+}
+a:link{/* lien dans son état par défaut*/
+	color:orange;
+	text-decoration: none;
+	/* cursor: defaut, hand, crsshair,...;*/
+	transition:;
+}
+a:visited{/* L'état du lien lorsque la page cible a déjà été visté*/
+	color:orange;
+}
+a:hover{/* L'état du lien au moment où il est survoolé par le curseur ou la souris*/
+	color:red;
+}
+a:active{/* L'état du lien au moment clic*/
+		color:white;
+}
+span.span{
+		display: inline-block
+}
+
+.span{
+		height: 150px;
+		vertical-align:-20px;
+}
+img{
+		vertical-align:middle;
+]
+
+/* vertical-align permet de définir l'alignement vertical par rapport à la ligne d'écriture". Ceci est valable uniquement pour des éléments i,line ou inline-block. 
+Possibilité de mettre en valeur des pixels (10 px; -30 px) ou des mots clés ((top, bottom, middle, baseline(défaut))*/

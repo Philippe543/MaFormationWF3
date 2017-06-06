@@ -1,0 +1,132 @@
+<!doctype html>
+<html class="no-js" lang=""> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>OhMyCats</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+    <body>
+    <!-- NAV -->
+      <nav>
+        <div class="container"><h1>OhMyCats !<h1></div>
+      </nav> 
+      <!-- HEADER -->
+      <header>
+        <h2>Adoptez un chat trop bon!</h2>
+      </header>
+        <!-- SLIDERS -->
+    <section class="milieu">
+      <div class="container">
+          <div id="slide" class="col-md-9 col-md-push-3">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                </ol>
+          
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="img/chat_1.jpg" alt="Sushi">
+                    <div class="carousel-caption">Sushi</div>
+                  </div>
+                  <div class="item">
+                    <img src="img/chat_2.jpg" alt="Maki">
+                    <div class="carousel-caption">Maki</div>
+                  </div>
+                  <div class="item">
+                    <img src="img/chat_3.jpg" alt="Sashimi">
+                    <div class="carousel-caption">Sashimi</div>
+                  </div>
+                  <div class="item">
+                    <img src="img/chat_4.jpg" alt="Yakitori">
+                    <div class="carousel-caption">Yakitori</div>
+                  </div>
+                  <div class="item">
+                    <img src="img/chat_5.jpg" alt="Onigiri">
+                    <div class="carousel-caption">Onigiri</div>
+                  </div>
+                </div>
+
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+          </div>
+
+        <!-- FORMULAIRE -->
+          <div class="col-md-3 col-md-pull-9">
+            <h2>Les chats à adopter</h2>
+              <div class="row">
+                <form method="post" action="#" enctype="multipart/form-data">
+                    <div class="form-group">
+                      <div class="col-md-12">
+                        <label for="chat">Choix du chat:</label>
+                      </div>
+                        <select class="col-md-12" id="chat" name="chat">
+                          <option value="sel" selected disabled >Sélectionnez</option>
+                          <option value="sushi" >Sushi</option>
+                          <option value="sashimi" >Sashimi</option>
+                          <option value="onigiri" >Onigiri</option>
+                          <option value="maki" >Maki</option>
+                          <option value="udon" >Udon</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-md-12">
+                        <label for="message">Raison d'adoption</label>
+                      </div>
+                      <textarea class="col-md-12" id="message" name="message" rows="5" placeholder="Saisissez ici les raisons pour lesquelles vous souhaitez adopter ce chat"></textarea>
+                      <div class="col-md-12">
+                        <button type="submit" class=" btn btn-default submit">Envoyer</button>
+                      </div>
+                    </div>
+                </form>
+              </div>
+          </div>
+        
+      </div>
+    </section>
+
+    <!-- SECTION BAS -->
+    <section class="bas" id="panel" >
+      <section class="container">
+        
+          <div class="row">
+            <div class="col-md-9"><h2>Nos chats à adopter...</h2><br></div>
+            <div class="col-md-9">Sed quid est quod in hac causa maxime homines admirentur et reprehendant meum consilium, cum ego idem antea multa decreverim, que magis ad hominis dignitatem quam ad rei publicae necessitatem pertinerent? Supplicationem quindecim dierum decrevi sententia mea. Rei publicae satis erat tot dierum quot C. Mario ; dis immortalibus non erat exigua eadem gratulatio quae ex maximis bellis. Ergo ille cumulus dierum hominis est dignitati tributus.<hr>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.</div>
+            <div class="col-md-3">
+              <img id="tete-chat" src="img/tete-chat.png">
+            </div>
+          </div>
+      </section>
+      <!-- FOOTER -->
+      <footer>
+        <p>&copy; Jérémy TALBOT 2017</p>
+      </footer>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

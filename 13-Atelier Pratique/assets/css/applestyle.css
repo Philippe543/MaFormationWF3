@@ -1,0 +1,57 @@
+.container{
+    background-color: green;
+    height:500px;
+    width:1000px;
+    margin:0 auto;
+    margin-left:300px;
+}
+
+header{	
+	height:70px;
+	background-color:black;
+	width:100%;
+	color:#fff;
+}
+
+.brand{
+    padding-left:20px;
+    padding-top:20px;
+    width:50px;
+}
+
+header .menu{
+	float:left;
+	margin-right:15px;
+}
+header .menu li{
+	display: inline-block; /*Cela permet les mettre les uns à coté des autres et les uns en dessous des autres*/
+	padding: 10px 0px;
+	line-height:0px;
+}
+
+header .menu li a{
+	color:#fff;
+	text-decoration: none;
+}
+
+header .menu li:hover{
+	background-color:#EB43A3;
+}
+
+
+.galerie li{
+	display: inline-block; /*Cela permet les mettre les uns à coté des autres et les uns en dessous des autres*/
+	padding: 10px 0px;
+	line-height:0px;
+}
+
+galerie .menu li a{
+	color:#fff;
+	text-decoration: none;
+}
+
+
+
+
+
+.clear{clear:both;}

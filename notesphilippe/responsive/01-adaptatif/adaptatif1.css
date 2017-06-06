@@ -1,0 +1,43 @@
+.zone-adaptative{
+	background:orange;
+	color:#fff;
+	padding:10px;
+	width:350px;
+}
+.zone{
+	float:left;
+	width:32%;
+	border:1px solid;
+	text-align:center;
+}
+.clear{ 
+	 clear:both; 
+ }
+
+@media (min-width: 768px){
+	.zone-adaptative{
+		width: 730px;
+	}
+	.zone{
+		width:33%;
+	}
+}
+@media (min-width: 992px){
+	.zone-adaptative{
+		width: 970px;
+	}
+	.zone{
+		width:33%
+	}
+}
+@media (min-width: 1200px){
+	.zone-adaptative{
+		width: 1170px;
+	}
+	.zone{	width:33%;
+	}
+	
+}
+/* @media : uniquement en css, on intéroge le systeme informatique pour avoir des infos. Et ici en ce qui concerne la résolution de l'écran, on fait des tests.*/
+
+

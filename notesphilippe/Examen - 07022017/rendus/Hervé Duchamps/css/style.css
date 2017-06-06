@@ -1,0 +1,51 @@
+body {
+    background-image: #061339;
+    padding-top: 50px;
+}
+.navbar-brand{
+	color: #061339;
+	line-height: 100%;
+	font-family: 'Merienda', cursive;
+}
+#entete{
+	height: 200px;
+}
+.description{
+	background: #dddddd;
+}
+.main{
+	background: #f1f1f1;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+h1{
+	color: #fff;
+	line-height: 100%;
+	padding-top: 3%;
+	font-family: 'Merienda', cursive;
+	text-shadow: 2px 2px #999;
+}
+h2{
+	font-size: 25px;
+	font-family: 'Merienda', cursive;
+	color: #2F4073;
+}
+h3{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Merienda', cursive;
+	color: #2F4073;
+}
+footer{
+	background: #061339;
+	line-height: 30px;
+	color: #dddddd;
+}
+label{
+	margin-top: 10px;
+}
+#tete{
+	background: #7885A5;
+}
+
+

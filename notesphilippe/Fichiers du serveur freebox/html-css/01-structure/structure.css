@@ -1,0 +1,63 @@
+/*
+Cette structure s'appelle un ensemble de regles (généralement on appelle ca une règle)
+
+Ici body est le selecteur.
+Le selecteur permet de définir les éléments sur lesquels le style souhaité doit s'appliquer (en l'occurence l'élément body)
+Pour mettre en forme un élément different, il suffit de changer le selecteur.
+
+Entre accolade nous avons deux déclarations.
+chaque déclaration est séparéede la suivante par ";"
+Une déclaration comporte une propriété (background-color) et une valeur de propriété (lightgrey)
+chaque propriété est séparée de sa valeur par ":"
+*/
+body{
+	/* déclaration css définissant la couleur de fond de l'élément */
+	background-color: #D3D3D3;
+	/* definition de la couleur du texte de l'élément */
+	color: rgb(255,255,255);
+}
+header{
+	background-color: dodgerblue;
+	/* definition de la hauteur de l'élément */
+	height: 100px;
+}
+nav{
+	background-color: slategrey;
+	height: 30px;
+}
+section{
+	background-color: whitesmoke;
+	height: 500px;
+	color: slategrey;
+}
+footer{
+	background-color: dodgerblue;
+	height: 80px;
+}
+
+/*
+Couleurs
+En css nous pouvons faire appel aux couleurs de trois manières différentes:
+
+- Des mots clés de couleurs basés sur une désignation en anglais. ex: black, white...
+Nous pouvons faire appel ainsi à plus de 200 couleurs
+
+- code hexadecimal: une combinaison de 3 ou 6 caractères de 0à9 et AàF correspondant à 256x256x256=16 777 000 couleurs différentes.
+syntaxe: #ff0011
+
+- code décimal: une combinaison de trois valeurs de 0 à 255 correspondant à 256x256x256=16 777 000 couleurs différentes.
+syntaxe : rgb(255,0,0)
+Une variante ajoute la donnée de transparence:
+syntaxe: rgba(255,0,0,0.5)
+
+*/
+
+
+
+
+
+
+
+
+
+

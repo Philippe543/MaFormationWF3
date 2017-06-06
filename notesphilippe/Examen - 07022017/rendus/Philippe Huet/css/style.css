@@ -1,0 +1,56 @@
+.haut {
+	background: #061339;
+}
+.haut h1 {
+	color: #FFF;
+	font-family: "Merienda";
+}
+.menu {
+	background: url("../img/background.jpg");
+	color: #FFF;
+	text-align: center;
+}
+.menu h1 {
+	margin: 0;
+	padding: 80px;
+	font-family: "Merienda";
+}
+.milieu1 {
+	background: #f1f1f1;
+}
+.formulaire-titre {
+	color: #2F4073;
+	font-family: "Merienda";
+}
+.formulaire-contenu {
+	border: 0.1px solid grey;
+	padding: 10px;
+}
+.formulaire-photos {
+	padding: 20px 20px;
+    width: 70%;
+}
+.button-envoyer {
+	background: #5cb85c;
+	width: 100%;
+	color: #fff;
+}
+.milieu2 {
+	background: #dddddd;
+}
+.milieu2 h1 {
+	color: #2F4073;
+	font-family: "Merienda";
+}
+.logochat {
+	background: #7885A5;
+}
+.bas {
+	background: #061339;
+	color: #FFF;
+	text-align: right;
+	padding: 10px;
+}
+.bas h5 {
+    margin: 0;
+}

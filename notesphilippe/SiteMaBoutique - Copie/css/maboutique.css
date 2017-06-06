@@ -1,0 +1,187 @@
+#conteneur{
+	width:1000px;
+	border:2px grey solid;
+	height:1500px;
+	margin:0 auto;
+	font-family:Times New Roman;
+}
+.logo{
+	float:left;
+	margin-left:15px;
+	margin-top:15px;
+}
+
+.boutique{
+	float:left;
+	margin-left:35px;
+	width:30%;
+}
+	.boutique1{
+		font-size:42px;
+		font-weight:bold;
+		font-style:italic;
+		margin:10px 0px 0px 0px;
+		padding:0px;
+	}
+
+	.slogan{
+		font-size:14px;
+		color:#FF00FF;
+		margin-top:4px;
+		}
+
+.aide{
+	float:left;
+	width:30%;
+	color:#00FFFF;
+	
+}
+	.besoinaide{
+		font-size:30px;
+		margin:10px 0px 0px 0px;
+	}
+
+	.tel{
+		color:#3fc9fa;
+		background: url('../img/aide.png') no-repeat;
+		padding-left:37px;
+		
+	}
+	.horaire{
+		color:grey;
+		margin-top:2px;
+	}
+
+
+.pannier{
+	background:#3fc9fa;/* bleu clair*/
+	font-size:15px;
+	float:right;
+	width:30%;
+}
+
+.moncompte{
+	text-align:center;
+	border-bottom:1px white solid;
+	font-size:20px;
+	color:white;
+	padding:0px 0px 5px 0px;
+	margin-top:0px;
+	margin-bottom:2px;
+}
+
+
+.achat{
+	float:left;
+}
+	.article{
+		color:white;
+		padding-bottom:35px;
+		vertical-align:middle;
+		
+	}
+header{
+	width:100%;
+}
+
+
+nav{
+	background:#00FFFF;
+}
+
+.accueil{
+	background:purple;
+}
+nav a{
+	padding:0px;
+	font-size:20px;
+	color:grey;
+	width:164px;
+	display:block;
+	float:left;
+	border:0px solid;
+	text-align:center;
+	text-decoration: none;
+}
+
+nav a:hover{
+	background:#f583e3;
+	
+}
+.b{
+	
+	
+}
+.paiement{
+	float:left;
+	width:200px;
+	padding-left:15px;
+}
+.titrebleu{
+	
+	color:#00FFFF;
+	font-weight:bold;
+	font-size:20px;
+}
+.nous{
+	float:left;
+	width:550px;
+	padding-left:15px;
+	border-left:1px solid;
+}
+.services{
+	border-left:1px solid;
+	float:right;
+	width:200px;
+	padding-left:15px;
+}
+
+
+.clear{
+	clear:both;
+}
+
+footer{
+	background:#00FFFF;
+	margin-left:100px;
+	}
+
+footer a{
+	color:grey;
+	float:left;
+	border:0px solid;
+	text-align:center;
+}
+.marron{
+	background-color:brown;
+	width:300px;
+	text-align:center;
+	border-radius: 36px 36px 5px 0px;
+	-moz-border-radius: 36px 36px 5px 0px;
+	-webkit-border-radius: 36px 36px 5px 0px;
+	border: 0px solid #000000;
+}
+	
+	
+}
+.c1, .c2, .c3{
+	width:300px;
+	margin-left:20px;
+	border-radius: 36px 36px 36px 36px;
+	-moz-border-radius: 36px 36px 36px 36px;
+	-webkit-border-radius: 36px 36px 36px 36px;
+	border: 0px solid #000000;
+	
+}
+	
+.c1{
+	float:left;
+}
+.c2{
+	float:left;
+}
+.c3{
+	float:left;
+}
+
+

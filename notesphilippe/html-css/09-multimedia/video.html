@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>videos</title>
+		
+	</head>
+	<body>
+	
+		<!-- 
+		controls : permet d'avoir une barre de lecture pour la video
+		preload: précharge la video
+		poster: permet de mettre une image que l'on choisit à l'emplacement de la video. On la verra tant que la video ne fonctionne pas ici le logo du CIC
+		
+		-->
+		<h1>CIC.OGV</h1>
+		<video controls preload poster="cic.gif">
+			<source src="cic.ogv" type="video/ogg" />
+		</video>
+		
+		<h1>CIC.OGV</h1>
+		<video controls preload poster="cic.gif">
+			<source src="cic.webm" />
+		</video>
+		<h1>CIC.MP4</h1>
+		<video controls preload poster="cic.gif">
+			<source src="cic.mp4" />
+		</video>
+		
+		
+		<!-- ici le navigateur a le choix parmi la même video qui est proposé dans 3 formats différents-->
+		<h1>CIC 3 sources</h1>
+		<video controls preload poster="cic.gif">
+			<source src="cic.ogv" type="video/ogg" />
+			<source src="cic.webm" />
+			<source src="cic.mp4"/>
+		</video>
+		
+		
+		
+	</body>
+		
+
+</html>

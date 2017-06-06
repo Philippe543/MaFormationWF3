@@ -1,0 +1,130 @@
+*{box-sizing:border-box;}
+
+body{
+	font-family: arial,sans-serif;
+	font-size:13px;
+	background-color:#fff;/* #fff : couleur blanche*/
+	background-image:url('../img/background.png');
+	background-repeat:repeat;
+	margin:0;/* sert à forcer les marges à 0*/
+}
+
+header{
+	width:100%;
+	height:70px;
+	background-color:#C55394;
+	color:#fff;
+}
+
+
+header .brand{
+	float:left;
+	font-family: 'Courgette', cursive;
+	font-size:28px;
+	margin-left:15px;
+	padding:20px;
+}
+
+header a{
+	color:#fff;
+	text-decoration:none;
+	
+}
+header .menu{
+	float:right;
+	margin-right:15px;
+}
+/************************************header**************** */
+header .menu ul{
+	margin:0;
+	padding:0;
+}
+
+header .menu li{
+	display:inline-block;
+	padding:25px 15px;
+	line-height:20px;
+}
+header .menu li a{
+		color:#fff;
+		text-decoration:none;
+		text-transform:uppercase;
+}
+
+header .menu li:hover{
+	background-color:#EB43A3;
+
+}
+
+/***************************Main****************/
+h1{
+	font-family: 'courgette', cursive;
+	color:#c55394;
+}
+h2, h3, h4, h5, h6{
+	font-family: 'courgette', cursive;
+	color:#EB43A3;
+}
+main{
+	margin-top:30px;
+	margin-bottom:60px;
+}
+
+#page{
+	border:1px solid #ff0000;
+	background-image:url('../img/rainbow.png');
+	background-repeat:no-repeat;
+	background-position:top center;
+	padding-top:30px;
+}
+
+
+.container{
+	border:1px solid blue;
+	
+}
+#page h1{
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:2.3em;
+	
+}
+
+#page .block-white{
+		background-color:white;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		padding:20px;
+}
+#page section{
+	padding: 20px 0;
+}
+#page section h2{
+		font-size:2em;
+		font-weight:400;
+}
+
+#page section .description{
+	section:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+clear{clear:both;}

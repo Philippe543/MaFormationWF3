@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+	margin: 0;
+	/*font-family: "Ubuntu";*/
+}
+
+h1{
+	font-weight:bold;
+	font-size: 50px;
+	color:dodgerblue;
+	text-align:center;
+}
+h2{
+	font-size:30px;
+	text-align:center;
+	
+}
+
+ul{
+	list-style-type: none; /* none permet d'enlever les puces devant les éléménts de la liste*/
+	width:600px;
+}
+.container{
+	width:1000px;
+		
+}
+img{
+	float:left;
+	width:200px;
+}

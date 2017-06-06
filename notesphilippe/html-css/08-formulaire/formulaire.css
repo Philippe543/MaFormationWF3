@@ -1,0 +1,22 @@
+label{
+		display:block;
+		width: 150px;
+		margin-top:20px;
+}
+
+/*input [type=sumit]{
+	margin-top:25px;*/
+		
+
+.submit{
+		margin-top:25px;
+}
+
+.radiolabel{
+		display:inline;
+}
+textarea{
+	resize:vertical; /* vertical / horizontal / none /both */
+	
+}
+

@@ -1,0 +1,27 @@
+body{
+		margin:0;
+		padding:0;
+}
+
+#conteneur{
+		width: 960px;
+		margin:0 aut;
+		background-color:#f4c400;		
+		padding:30px;
+}
+.a, .b{
+		width: 450px;
+		height:250px;
+		border:2px solid; /* solid fait afficher les bordures*/
+		background-color:#f4c400;		
+		margin:0, 10;
+		display: inline-block;
+}
+/* 
+3 types différents
+inline: permet de mettre côte à côte. Perte des dimensions
+block: se met en dessous l'un de l'autre mais garde les dimmensions
+inline-block  : permet de mettre cote à cote et de respecter les tailles.
+
+
+*/

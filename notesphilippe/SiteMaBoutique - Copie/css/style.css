@@ -1,0 +1,136 @@
+body{
+ background:url('../img/fond.png') repeat-x; /*repeat x permet de dupliquer un fond qui a une largeur de 1 px. C'est une valeur par défaut*/
+ font-family:sans-serif;
+}
+#conteneur{
+	width:1000px;
+	margin:0 auto; /*permet de centrer le conteneur */ 
+	border:1px solid;
+	box-shadow:1px 1px 6px;/*il existe l'instruction texte shadow sert à créer une ombre*/
+	background:#fff;
+}
+
+.titre{
+	float:left;
+	width:350px;
+}
+
+.titre h1, .titre img{
+	float:left;
+	
+}
+.information{
+	float:left;
+	width:200px;
+}
+
+.panier{
+	float:left;
+	width:350px;
+}
+.clear{
+	clear:both;
+}
+
+#publicite{
+	margin: 25px 0;
+	
+}
+
+
+#publicite .bloc{
+	float:left;
+	width:300px;
+
+	margin:0 15px;
+	/*arrondis*/
+	border-radius:10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+	/* box shadow*/
+	-webkit-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
+}
+
+
+
+#publicite .bloc h2{
+	background:#d9d9d9;
+	font-size:15px;
+	text-align:center;
+	padding:3px 0;
+	/*arrondis*/
+	border-radius:10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border: 0px solid #000000;
+	margin-top:0;
+}
+
+#publicite .product-img{
+	float:left;
+}
+
+#publicite .product-txt{
+	float:left;
+}
+
+#publicite .product-link{
+	text-align:right;
+	height:25px;	
+}
+#publicite .product-link a{
+	color: #3fc9fa;
+	font-size:13px;
+	text-decoration: underline;
+	margin-right:20px;
+	position:relative;
+	bottom:10px;
+	right:3px;
+}
+
+
+#publicite table{
+	width:100%;
+	border-collapse:collapse;
+}
+
+#publicite td{
+	/*border:1px solid;*/
+	
+}
+
+#footer{
+	background:#3fc9fa;
+	height:35px;
+	text-align:center;
+	line-height:32px;
+	font-size:13px;
+	color:#fff; /* permet d'avoir les tirets entre les mots en blanc. Ils sont non cliquable car en dehors de la balise a*/
+}
+
+#footer a{
+	color:#fff;
+	font-size:13px;
+	line-height:33px;
+	
+}
+
+#footer a:hover{
+	background:#f583e3;
+}
+
+
+.clear{clear:both;}
+
+
+
+
+
+
+
+
+
+

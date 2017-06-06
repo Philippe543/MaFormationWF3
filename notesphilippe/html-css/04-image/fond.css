@@ -1,0 +1,51 @@
+body{
+	background:#000 url("images/fond1.jpg") top center/ 100% no-repeat;
+	/* background-size: contain; ou cover;*/
+	background-attachment: fixed;
+/*background:#000 url("images/fond1.jpg") top left/ 100% no-repeat;*/
+}
+/*
+au desus version condensé et en dessous version détaillé
+background-color
+background-image  --> .jpg, .jpeg,  (on peut renommer jpeg en jpg), .gif, .png
+gif et png ont des notions de transparences. Les Gif peuvent animés.
+Les PNG ont donc cette notion de transparence. jpg et jpeg ont les mêmes caractéristiques.
+background-position --> unité de longueur( ex: 100Px, 5 px), pourcentage(100% 5%), mot clés (top, right, left ou bottom).
+background-size  (tailles fixes, des pourcentages  2 mots intéressant cover et contain
+background-repeat n-repeat-x, repeat-y,
+background-attachement sccroll (par défaut) fixed
+
+*/
+
+.contenu{
+		width: 800px;
+		height:500px;
+		background-color: rgba(255,255,255,0.3);
+		/*  on peut utiliser opacity mais dans ce cas, le texte subit aussi l'opacité.*/
+		margin: 200px auto 0;
+		
+/*		
+background: rgba(32,124,229,1);
+background: -moz-linear-gradient(-45deg, rgba(32,124,229,1) 0%, rgba(95,223,87,0.84) 92%, rgba(101,232,75,0.84) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(32,124,229,1)), color-stop(92%, rgba(95,223,87,0.84)), color-stop(100%, rgba(101,232,75,0.84)));
+background: -webkit-linear-gradient(-45deg, rgba(32,124,229,1) 0%, rgba(95,223,87,0.84) 92%, rgba(101,232,75,0.84) 100%);
+background: -o-linear-gradient(-45deg, rgba(32,124,229,1) 0%, rgba(95,223,87,0.84) 92%, rgba(101,232,75,0.84) 100%);
+background: -ms-linear-gradient(-45deg, rgba(32,124,229,1) 0%, rgba(95,223,87,0.84) 92%, rgba(101,232,75,0.84) 100%);
+background: linear-gradient(135deg, rgba(32,124,229,1) 0%, rgba(95,223,87,0.84) 92%, rgba(101,232,75,0.84) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207ce5', endColorstr='#65e84b', GradientType=1 );
+		
+-webkit-box-shadow: 18px 30px 78px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 30px 78px 3px rgba(0,0,0,0.75);
+box-shadow: 18px 30px 78px 3px rgba(0,0,0,0.75);	
+*/
+}
+
+.contenu p{
+		text-align:center;
+		position:relative;
+		top:50%;
+}
+
+
+
+

@@ -1,0 +1,69 @@
+/*  Cette structure s'appelle un ensemble de règles (généralement on appelle çà une règle)
+Ici body le sélecteur.
+Le sélecteur permet de définir les élméménts sur lesquels le style souhaité doit s'appliquer 
+(en l'occurence l'élémént body)
+Pour mettre en forme un élément différent, il suffit de changer le sélecteur.
+
+Entre accolades, nous avons 2 déclarations.
+Chaque délaration est séparée de la suivante par ";".
+une d&éclaration comporte une propriété (background-color) 
+et une valeur de propriété (lightgrey)
+Chaque prpriété est séparé de sa valeur par ":"
+
+ */
+body {
+	/* déclaration css définissant la couleur de fond de l'élément*/
+	background-color:#FFE4E1;
+	
+	/* définition de la couleur du texte de l'élémént */
+}
+header{
+	background-color: dodgerblue;
+	/* déféinition de la hauteur de l'élément*/
+	height: 100px;
+	color:rgb(0,0,0)
+	/* rgb(0,0,0) correspond à la couleur noir 
+	Valeur maximum c'est rgb (255,255,255)
+	Le 4 ième chiffre indique l'oppacité de la couleur compris entre 0 et 1 (100%)
+	*/
+}
+nav {
+	background-color:slategrey;
+	height:30px;
+	color:white
+}
+section {
+	background-color: whitesmoke;
+	height:500px;
+}
+footer {
+	background-color: dodgerblue;
+	height:100px;
+	color: white
+}
+
+
+/*
+Couleurs
+En CSS, nous pouvons faire appel aux couleurs de 3 manières différentes.
+
+- des mots clés de couleurs basés sur une désignation en anglais. Exemple black, white,...)
+Nus pouvons faire appel ainsi à plus de 200 couleurs.
+
+- Code Hexadécimal : une combinaisoon de 3 ou 6 caractères de 0 à 9 
+et de A à F correspondant à 256*256*252= 16 777 000 couleurs différentes.
+Syntaxe : #ff0011
+Couleur blanc : #FFFFFF 
+rouge vert bleu
+
+-Code décimal : une combinaison de 3 valeurs de 0 à 255 crrespondant à 256 * 256 * 256=
+16 777 000 couleurs différentes.
+syntaxe : rgb(255,0,0)
+Ubne variante ajoute la donnée de transparence:
+syntaxe : rgba(255,0,0,0,0.5)
+
+
+
+
+
+*/

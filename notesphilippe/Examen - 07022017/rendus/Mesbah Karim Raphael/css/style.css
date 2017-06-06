@@ -1,0 +1,82 @@
+/**********************************
+Universal
+**********************************/
+#second-heading {
+  font-family: 'Merienda', cursive;
+  text-transform: none !important;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: 'Merienda', cursive;
+  text-transform: none !important;
+}
+
+h3, p {
+  text-transform: none !important;
+}
+
+
+.navbar-header .OhMyCats {
+  font-family: 'Merienda', cursive;
+  text-transform: none !important;
+
+}
+
+#mainNav {
+  background-color: #061339;
+
+}
+
+#custom-header {
+  background: url("../img/background.jpg")  ;
+  max-height: 288px;
+}
+
+#custom-header h1 {
+  font-family: 'Merienda', cursive;
+  text-transform: none !important;
+  margin-top: 0 !important;
+}
+
+#portfolio {
+  background-color: #F1F1F1;
+}
+
+
+/**********************************
+Form
+**********************************/
+
+#exampleTextarea {
+  min-height: 150px;
+}
+
+/**********************************
+Footer
+**********************************/
+#footer-bck .footer-above  {
+  background-color: #DDDDDD;
+  color: black;
+}
+
+#footer-bck:hover #cat-head {
+  background-color: #061339;
+}
+
+#footer-bck .footer-below {
+  background-color: #061339;
+
+}
+
+
+#cat-head {
+  background-color: #7885A5;
+}
+
+h2, h3 {
+  font-family: 'Merienda', cursive;
+  text-transform: none !important;
+  color: #2F4073;
+}

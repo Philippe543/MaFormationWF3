@@ -1,0 +1,149 @@
+#body{
+	margin:0;
+	padding:0;
+}
+#haut{
+	background:#333;
+	
+}
+
+.conteneur{
+	width:960px;
+	margin:0 auto; /*permet de centrer le conteneur */ 
+	padding:0;
+	/*border:1px solid;*/
+	
+	font-family:"georgia"
+}
+
+header{
+	background:#333;
+	color:white;
+	
+}
+.webforce{
+	float:left;
+	margin-bottom:25px;
+}
+
+.webforce3{
+	font-size:40px;
+}
+
+.exemple{
+	font-size:15px;
+}
+
+
+.barre{
+	float:right;
+	margin-top:25px;
+	margin-right:10px;
+	
+}
+.element{
+	margin-left:15px;
+	text-decoration:none;
+	color:white;
+	
+}
+
+
+
+
+
+
+section{
+	background:white;
+	
+	
+	
+}
+
+.image img{
+	border:1px grey solid;
+	padding:2px;
+}
+
+.milieusection{
+	height:1000px;
+}
+
+.gauche{
+	float:left;
+	margin-left:150px;
+	margin-top:100px;
+	width:250px;
+}
+.milieu{
+	margin-top:100px;
+	float:left;
+	width:250px;
+}
+.droite{
+	float:right;
+	width:250px;
+	
+}
+
+ul.language{
+	list-style-type:none;
+	padding-left:15px;
+}
+
+ul.language li{
+	background-image:url('../images/orange_file.gif');
+	background-repeat: no-repeat;
+	border-bottom:1px solid;
+	border-bottom-style:dotted;
+	border-bottom-color:grey;
+	padding-left:15px;
+	background-position:6px 5px;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background:#333;
+	color:white;
+	
+}
+
+.footergauche{
+	float:left;
+	width:500px;
+}
+.footerdroite{
+	float:right;
+	width:300px;
+}
+
+
+
+
+
+
+
+
+.clear{clear:both;}

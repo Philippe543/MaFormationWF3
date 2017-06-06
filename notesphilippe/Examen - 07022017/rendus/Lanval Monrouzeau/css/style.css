@@ -1,0 +1,102 @@
+
+/*Bannière*/
+
+#headerbleu{
+	background-color: #061339;
+	height: 50px;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	font-family: 'Merienda', cursive;
+	font-size: 2em;
+	line-height: 50px;
+}
+
+h2{
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	text-shadow: 2px 2px black;
+	font-family: 'Merienda', cursive;
+	font-size: 3em;
+	line-height: 150px;
+	text-align: center;
+
+}
+
+#headerchat{
+	background: url("../img/background.jpg") repeat;
+	height: 150px;
+	margin: 0;
+    
+}
+
+/*formulaire*/
+
+h3{
+	margin: 10px 0 0 0;
+	padding: 0;
+	color: #061339;
+	font-family: 'Merienda', cursive;
+	font-size: 1em;
+	line-height: 50px;
+	font-weight: bold;
+	text-align: center
+}
+
+form{
+	background-color: #B9CDFF;
+	padding: 10px;
+	border: 1px solid lightgrey;
+}
+
+.textegras{
+	font-weight: bold;
+	font-size: 1em;
+}
+
+/*slider*/
+
+#containerslide{
+	padding: 2% 1%;
+}
+
+
+/*Footer*/
+
+#tetechat{
+	width: 100%;
+	background-color: #7885A5;
+	margin: 0;
+	padding: 0;
+}
+
+#footergris{
+	background-color: #DEDEDE; 
+	height: 300%;
+}
+
+#footerbleu{
+	background-color: #061339;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+}
+
+#titrebas{
+	margin: 0;
+	padding: 15px;
+	font-family: 'Merienda', cursive;
+	font-size: 2em;
+	color: #061339;
+	padding: 15px;
+}
+
+#signature{
+	float: right;
+	color: white;
+	font-size: 1em;
+}

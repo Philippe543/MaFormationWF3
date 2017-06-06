@@ -1,0 +1,13 @@
+#zone{
+	border: 2px solid;
+}
+p{
+	margin:0;
+}
+
+.relative{
+	color:blue;
+	/*position:relative;*/
+	left: 100px;
+	bottom:-20px;
+}

@@ -1,0 +1,9 @@
+*{box-sizing:border-box;}
+
+body{
+	font-family: arial,sans-serif;
+	font-size:13px;
+	background-color:red;/* #fff : couleur blanche*/
+	background-image:url('../img/background.png');
+	background-repeat:repeat;
+}

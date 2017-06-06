@@ -1,0 +1,125 @@
+/* @ import permet d'importer un autre fichier css */
+@import url("selecteur2.css");
+
+
+p{
+	color: red;
+}
+/* section p:first-child, header p:first-child{
+		/* Le premier élément <p> de la page ou premier élément <p> d'un parent 
+		Color:green;
+}
+*/ 
+html body p:first-child{
+	/*le premier élément <p> de la page ou premier élément d'un parent */
+	color:green;
+}
+
+
+p:first-child{
+		/* Le premier élément <p> de la page ou premier élément <p> d'un parent */
+		Color:green;
+}
+
+p:last-child{
+		/* Le dernier élément <P> de la page ou dernier d'un parent */
+		color:lightgreen;
+}
+
+P:nth-child(even){
+		/*tous les éléments <p> impairs */
+	color:blue;
+}
+p:nth-child(odd){
+		/*tous les éléments <p> pairs*/
+	color:brown;
+}
+p:nth-child(5), p:nth-child(6){
+	/* éléments précis 5 et 6 */
+
+	color:orange;
+}
+
+/** Toutes les div sauf les div de classe .zone b  **/
+
+div:not(.zone_b) {
+	font-weight:bold;
+}
+
+/** Possibilité de mettre du contenu  dans le HTML via la feuille de CSS. 
+Cela est généralement utilisé pour des codes d'icones. **/
+#zone_d:before{
+	content: "texte";
+}
+
+/*
+L'utilisation des :child n'est pas très rassurantes dans le cas ou le code html serait amené
+à évoluer. Ilk est préférable de favoriser l'utilisatin de classe et d'id
+*/
+
+
+
+div.zone_a {
+	color: #f56#f56;
+}
+.zone_b {
+	color:brown
+}
+
+#zone_c{
+		color : #98f32f
+}
+
+#zone_d span{
+		color : #32ff32;
+}
+
+
+P[title="infobulle"]{
+	color:pink;
+}
+
+
+/*selecteur universel, tout les éléments sont concernés généralement placé au début du code*/
+*{
+font-size: 30px;
+}
+
+
+/*
+Différence entre classe et id:
+	- Une classe est appelée grace à un point"."
+	- Un id est appelé grace à un "#"
+Le W3C recommande d'utiliser un ID une seule fois dans une page web 
+(pour des zones principales) et des classes pour tout le reste.
+
+	- Différenc ede poids pour rendre prioritaire un sélecteur 
+	(#id > class > balise)
+	
+Plusieurs moyens de styliser un élément :
+	-Par son ID : # element
+	-par sa classe : .element
+	-par sa balise : balise
+	-par une pseudo classe ; exemple (element:first-child)
+	
+	
+Règle d'écriture:
+	- div.zone {} veut dire dire : 
+		Va me chercher la div qui possède la classe zone.
+	- div .zone : veut dire : va me chercher la classe zone 
+		qui se trouve A L'INTERIEUR  de la div.
+	(c'est l'espace qui change la signification)
+	-  .maclasse, .maclasse2 {} :
+	Il y a des virgules, on applique le style sur les différents éléments.
+	
+	
+	
+*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+#body{
+	margin:0;
+	padding:0;
+}
+#haut{
+	background:#333;
+	
+}
+
+.conteneur{
+	width:960px;
+	margin:0 auto; /*permet de centrer le conteneur */ 
+	padding:0;
+	/*border:1px solid;*/
+	
+	font-family:"georgia"
+}
+
+header{
+	background:#333;
+	color:white;
+	
+}
+.webforce{
+	float:left;
+	margin-bottom:25px;
+}
+
+.webforce3{
+	font-size:40px;
+}
+
+.exemple{
+	font-size:15px;
+}
+
+
+.barre{
+	float:right;
+	margin-top:25px;
+	margin-right:10px;
+	
+}
+.element{
+	margin-left:15px;
+	text-decoration:none;
+	color:white;
+	
+}
+
+
+
+
+
+
+section{
+	background:white;
+	
+	
+	
+}
+
+.image img{
+	border:1px grey solid;
+	padding:2px;
+}
+
+.milieusection{
+	height:1000px;
+}
+
+.formulaire{
+	width:400px;
+	background-color:red;
+}
+.coordonnees{
+	width:400px;
+	
+}
+
+
+
+input{
+		display:block;
+		width: 300px;
+		margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear{clear:both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Formulaire</title>
+		<link rel="stylesheet" href="formulaire.css" />
+	</head>
+	<body><!--la balise form (formulaire) a besooin de 2 ou 3 attributs. -->
+	<!-- 2 methodes : post ou get le get est déconseillé pour des raisons de sécurité   action sert à rediriger la personne suite à remplissage formulaire 
+	input
+	for est en relation le name
+	Value: c'est ce qu'il y a d'écrit sur le bouton
+	<!-- type="reset" cela a comme connaissance que l'on voit dans le navigateur "veuillez compléter ce champ"-->
+	
+		<form method="get" action="#">
+			<label for="idpseudo">Pseudo</label>
+			<input type="text" id="idpseudo" name="pseudo" required placeholder="votre pseudo"/>
+			
+			<label for="mdp">Mot de passe</label>
+			<input type="password" id="mdp" name="mdp"/><br />
+			<br />
+			
+			<label for "email">Email</label>
+			<input type="email" id="email" name="email" />
+			
+			<label for "avatar">Avatar</label>
+			<input type="file" id="avatar" name="avatar" />
+			
+			<label for"pays">Pays</label>
+			
+			<!-- multiple permet de selectionner plusieurs pays
+			<select id="pays" name="pays" multiple>-->
+			<select id="pays" name="pays">
+			<!-- selected correspond à l'affichage par défaut.-->
+				<optgroup label="Europe">
+					<option value="fr">France</option>
+					<option value="ES">Espagne</option>
+					<option value="it" selected>Italie</option>
+				</optgroup>
+				<optgroup label="Asie">
+					<option value="la">Laos</option>
+					<option value="ki">corée du Sud</option>
+					<option value="ch">Chine</option>
+				</optgroup>
+			</select>
+			
+			<label for="checkbox">Quels sont vos fruits préférés</label>
+			<input type="checkbox" name="choix" /><span>Orange</span>
+			<input type="checkbox" name="choix" /><span>Poire</span>
+			<input type="checkbox" name="choix" /><span>Pomme</span>
+			
+			<label for="civilité">Civilité</label>
+			<input type="radio" id="femme" name="civilité" value="f"/>
+			<label class="radiolabel" for="femme">Femme</label>
+			<input type="radio" id="homme" name="civilité" value="m"/>
+			<label class="radiolabel" for="homme">Homme</label>
+			
+		<datalist id="France">
+			<option>Paris</option>
+			<option>Marseille</option>
+			<option>Lyon</option>
+			<option>Nice</option>
+			<option>Toulouse</option>
+			<option>Bordeaux</option>
+		</datalist>
+			
+			
+		<label for="adresse">Adresse</label>
+		<!-- textarea fait afficher un champ texte à taille ajustable-->
+		<textarea id="adresse" name="adresse" rows="5" cols="25"></textarea>
+				
+
+		<!-- en dessous le type "date" fonctionne uniquement dans Chrome et pas dans Firefox	-->	
+		<label for="datedenaissance">Date de naissance</label>
+		<input type="date" name="datedenaissance"" id="datedenaissance"/>
+		
+		<!-- en dessous "hidden" permet de créer un champs texte caché. Cela sert pour les bases de données-->
+		<input type="hidden" name="cache" />
+		
+		<div class="submit">
+			<input type="submit" name="inscription" value="Se connecter"/>
+			<input type="reset" name="efface" value="recommencer"/>
+		</div>	
+		
+		<label for="ville">Ville</label>
+		<input type="text" id="ville" name="ville" list="France"/>
+		
+		
+		
+		
+		
+		
+			
+		
+
+</html>
